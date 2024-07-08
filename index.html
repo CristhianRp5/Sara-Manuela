@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Años de Sara Manuela Rodríguez Carreño</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>¡Bienvenidos a los 15 Años de <span class="highlight">Sara Manuela Rodríguez Carreño</span>!</h1>
+        </header>
+
+        <main>
+            <!-- Foto Principal con Animación -->
+            <div class="photo-container">
+                <img src="images/SARA3.png" alt="Foto 1" onclick="nextImage()">
+            </div>
+
+            <!-- Detalles del Evento con Animaciones -->
+            <section class="event-details">
+                <button onclick="showDetails()">Ver Detalles del Evento</button>
+                <div id="details" class="hidden">
+                    <h2>Detalles del Evento</h2>
+                    <p>Fecha: 03 de Agosto de 2024</p>
+                    <p>Hora: 7:00 PM</p>
+                    <p>
+                        Lugar: <a href="https://www.google.com/maps/dir/4.6484276,-74.1417455/4.5998015,-74.1053351/@4.6243974,-74.1584383,13z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu" target="_blank">Salón de Eventos Casa Cristal</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Lista de Asistencias con Animaciones -->
+            <section class="attendance-list">
+                <button onclick="showAsistencias()">Ver Asistencias y Firmar Asistencia</button>
+                <div id="asistencias" class="hidden">
+                    <h2>Lista de Asistencias</h2>
+                    <p>Puedes ver la lista de asistencias <a href="https://docs.google.com/spreadsheets/d/1osRkPFbw3-oF6A-rUuxaazVgksJ_5oDDBV3uLmVyEOY/edit?gid=0#gid=0" target="_blank">aquí</a>.</p>
+                </div>
+            </section>
+
+            <!-- Código de Vestimenta -->
+            <section class="dress-code">
+                <h2>Código de Vestimenta</h2>
+                <p>Preparence para unos 15 llenos de colores evita usar el negro.</p>
+            </section>
+
+            <!-- Mensaje Alusivo a los 15 Años -->
+            <section class="quinceanera-message">
+                <h2>Mensaje Especial</h2>
+                <p>¡Celebremos juntos los dulces quince años de Sara Manuela con amor, alegría y mucha diversión!</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
